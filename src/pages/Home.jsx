@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div className="home-container">
+    <div className="container">
       <h1>Pensadores e os Animais</h1>
       <div className="buttons-container">
         <Link to="/pensadores">

@@ -1,21 +1,41 @@
-.home-container {
+:root {
+    --primeira: #272727;
+    --segunda: #90c58e;
+    --terceira: #919191;
+    --quarta: #240a1e;
+    --bg-primario: #fcf9e7;
+    --bg-secundario: #f0c171;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-primario);
+    max-width: 800px;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--quarta);
+    margin-bottom: .5rem;
+}
+
+.container {
+    padding: 20px;
     text-align: center;
-    padding: 20px;
 }
 
-.big-button {
-    padding: 20px;
-    font-size: 18px;
-    margin: 10px;
-    width: 100%;
-    height: 150px;
-    border-radius: 25px;
-}
-
+/* Navbar */
 .navbar {
-    background-color: #333;
+    background-color: var(--bg-secundario);
+    border-radius: 0 0 15px 15px;
+    line-height: 2.5rem;
     padding: 10px;
-    border-radius: 20px;
 }
 
 .nav-links {
@@ -24,17 +44,141 @@
     justify-content: space-around;
 }
 
-.nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.sobre-app-container,
-.sobre-autor-container {
-    padding: 20px;
+.nav-links li {
+    width: 120px;
     text-align: center;
 }
+
+.nav-links li:hover {
+    border-radius: 20px;
+    background-color: var(--segunda);
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--primeira);
+}
+
+/* Home Page */
+.big-button {
+    padding: 20px;
+    font-size: 18px;
+    margin: 10px;
+    width: 80%;
+    height: 30vh;
+    border-radius: 25px;
+    background: var(--terceira);
+    color: white;
+}
+
+.big-button:hover {
+    background: var(--segunda);
+}
+
+/* Sobre o App e Autor */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.content p {
+    line-height: 1.5rem;
+}
+
+hr {
+    width: 150px;
+    margin: 50px auto;
+}
+
+/* Pensadores e Animais*/
+.detalhe {
+    padding: 20px;
+}
+
+.detalhe h2 {
+    text-align: center;
+}
+
+.detalhe img {
+    width: 80%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.detalhe hr {
+    margin: 20px auto;
+}
+
+.card{
+    padding: 1rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.detalhe ul li {
+    list-style: none;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Estilo para linhas ípares */
+.detalhe ul li:nth-child(odd) {
+    background-color: #c6dfc5;
+}
+
+/* Estilo para linhas pares */
+.detalhe ul li:nth-child(even) {
+    background-color: var(--bg-primario);
+}
+
+
+/* Navegação Inferior */
+.navegacao {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 1.2rem;
+    background-color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navegacao button {
+    width: 40%;
+    height: 2rem;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: var(--primeira);
+    background-color: var(--segunda);
+}
+
+.navegacao button:hover {
+    background-color: var(--bg-secundario);
+    color: var(--primeira);
+}
+
+
+
 
 
 @media (min-width: 600px) {

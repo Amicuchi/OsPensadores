@@ -2,12 +2,12 @@ import PropTypes from 'prop-types';
 
 function AnimaisDetalhe({ animal, onProximo, onVoltar }) {
   return (
-    <div className="animal-detalhe">
+    <div className="detalhe content">
       <h2>{animal.name}</h2>
       {animal.picture && <img src={animal.picture} alt={`Foto de ${animal.name}`} />}
       
       <h3>Curiosidades</h3>
-      <ul>
+      <ul className='card'>
         {animal.curiosity.map((curiosity, index) => (
           <li key={index}>{curiosity}</li>
         ))}

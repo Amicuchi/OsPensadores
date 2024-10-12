@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Pensadores from './pages/Pensadores';
 import Animais from './pages/Animais';
@@ -16,6 +16,8 @@ function App() {
         <Route path="/animais" element={<Animais />} />
         <Route path="/sobre-app" element={<SobreApp />} />
         <Route path="/contato" element={<Contato />} />
+
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
   );

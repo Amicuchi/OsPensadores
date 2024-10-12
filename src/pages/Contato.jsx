@@ -13,7 +13,9 @@ function Contato() {
       <hr />
       <div>
         <h3>Repositório Público:</h3>
-        <p>https://github.com/Amicuchi/OsPensadores</p>
+        <a href="https://github.com/Amicuchi/OsPensadores" target="_blank" rel="noopener noreferrer">
+            GitHub.com/Amicuchi/OsPensadores
+          </a>
       </div>
     </div>
   );

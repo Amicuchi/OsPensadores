@@ -28,14 +28,14 @@ Ao abrir o aplicativo, você verá opções para conhecer pensadores e animais.
 
 ## Telas do app
 
-<img src="./public/telas/01.png" alt="Tela Inicial" style="max-height: 300px; width: auto;" />
-<img src="./public/telas/02.png" alt="Tela Inicial com mouse sobre o botão" style="max-height: 300px; width: auto;" />
-<img src="./public/telas/03.png" alt="Tela Inicial com mouse sobre o menu" style="max-height: 300px; width: auto;" />
-<img src="./public/telas/04.png" alt="Tela Pensador" style="max-height: 300px; width: auto;" />
-<img src="./public/telas/10.png" alt="Tela Animais" style="max-height: 300px; width: auto;" />
-<img src="./public/telas/05.png" alt="Tela Animais Curiosidade" style="max-height: 300px; width: auto;" />
-<img src="./public/telas/06.png" alt="Tela Sobre o App" style="max-height: 300px; width: auto;" />
-<img src="./public/telas/07.png" alt="Tela Contato" style="max-height: 300px; width: auto;" />
+<img src="./public/telas/01.png" alt="Tela Inicial" style="max-height: 300px; max-width: 170px;" />
+<img src="./public/telas/02.png" alt="Tela Inicial com mouse sobre o botão" style="max-height: 300px; max-width: 170px;" />
+<img src="./public/telas/03.png" alt="Tela Inicial com mouse sobre o menu" style="max-height: 300px; max-width: 170px;" />
+<img src="./public/telas/04.png" alt="Tela Pensador" style="max-height: 300px; max-width: 170px;" />
+<img src="./public/telas/10.png" alt="Tela Animais" style="max-height: 300px; max-width: 170px;" />
+<img src="./public/telas/05.png" alt="Tela Animais Curiosidade" style="max-height: 300px; max-width: 170px;" />
+<img src="./public/telas/06.png" alt="Tela Sobre o App" style="max-height: 300px; max-width: 170px;" />
+<img src="./public/telas/07.png" alt="Tela Contato" style="max-height: 300px; max-width: 170px;" />
 <img src="./public/telas/08.png" alt="Tela Inicial WEB" style="max-height: 300px; max-width: 350px;" />
 <img src="./public/telas/09.png" alt="Tela Pensador WEB" style="max-height: 300px; max-width: 350px;" />
 
